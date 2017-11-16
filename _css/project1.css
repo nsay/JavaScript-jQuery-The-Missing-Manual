@@ -1,0 +1,195 @@
+
+/* ----------------- SUNRISE ----------------- */
+/* (light blue page, yellow links.) */
+
+
+/*body		{background-color:	#99DEF2;}
+.main-box	{border-color:		#168DAF;}
+.links a	{color:			#000000;
+		 background-color:	#FCFFBB;
+		 border-color:		#AAB300;}
+.links a:hover	{color:			#151515;
+		 background-color:	#FEFFE6;
+		 border-color:		#D2DD00;}
+.page-title	{color:			#181818;}
+.tagline	{color:			#FFFFFF;}*/
+
+
+
+
+/* --------------- CITY LIGHTS --------------- */
+/* (Grey page, light blue links.) */
+
+/*
+body		{background-color:	#C5C5C5;}
+.main-box	{border-color:		#626262;}
+.links a	{color:			#000000;
+		 background-color:	#D5F4FF;
+		 border-color:		#00AFEA;}
+.links a:hover	{color:			#151515;
+		 background-color:	#F0FCFF;
+		 border-color:		#93E4FF;}
+.page-title	{color:			#000000;}
+.tagline	{color:			#FFFFFF;}
+*/
+
+
+
+/* -------------- FOREST TRAIL --------------- */
+/* (Olive page, beige links.) */
+
+
+body		{background-color:	#A7D280;}
+.main-box	{border-color:		#537D2D;}
+.links a	{color:			#000000;
+		 background-color:	#FFE6BB;
+		 border-color:		#B37000;}
+.links a:hover	{color:			#151515;
+		 background-color:	#FFF5E6;
+		 border-color:		#DD8A00;}
+.page-title	{color:			#000000;}
+.tagline	{color:			#FFFFFF;}
+
+
+
+
+/* --------------- ROCKY ROAD ---------------- */
+/* (Bright purple page, grey links.) */
+
+/*
+body		{background-color:	#F299F2;}
+.main-box	{border-color:		#AF16AF;}
+.links a	{color:			#000000;
+		 background-color:	#DDDDDD;
+		 border-color:		#595959;}
+.links a:hover	{color:			#151515;
+		 background-color:	#F2F2F2;
+		 border-color:		#6E6E6E;}
+.page-title	{color:			#000000;}
+.tagline	{color:			#FFFFFF;}
+*/
+
+
+
+/* ----------------- HAZARD ------------------ */
+/* (Bright orange page, grey borders.) */
+
+/*
+body		{background-color:	#FF6600;}
+.main-box	{border-color:		#666666;}
+.links a	{color:			#000000;
+		 background-color:	#FFD7BB;
+		 border-color:		#595959;}
+.links a:hover	{color:			#151515;
+		 background-color:	#FFF0E6;
+		 border-color:		#6E6E6E;}
+.page-title	{color:			#181818;}
+.tagline	{color:			#FFFFFF;}
+*/
+
+
+/* THE REST OF THE CSS */
+
+body {				/* Anything in this "body" style affects the whole site, because everything on every page is inside the body tag. */
+	font-family: Arial; 	/* You can change your font here. Some other options are Helvetica, "Times New Roman", and Verdana. */
+	font-size: 12pt;	/* 12pt is a medium font size. Many sites use 10pt instead. */
+}
+
+a {				/* "a" is the link tag. This CSS style makes all links bold. */
+	font-weight: bold;
+}
+
+h1 {				/* H1's are the larger paragraph headers that appear once per page. */
+	font-size: 24pt;	/* This is just the text size. Feel free to change this. */
+	font-weight: bold;
+	margin-bottom: 24px;	/* This is blank space below the H1. */
+}
+
+h2 {				/* H2's are the smaller paragraph headers that appear multiple times per page. */
+	margin-top: 56px;
+	font-weight: bold;
+	font-size: 12pt;	/* This is just the text size. Feel free to change this. */
+}
+
+.page-title {			/* This is the big title text at the top of the page. */
+	font-size: 70pt;	/* This is how big it is. */
+	font-weight: bold;
+	text-align: center;
+	clear: both;		/* Nothing can be to the left or right side of this element. */
+	margin-top: 76px;
+	margin-bottom: 0;
+	letter-spacing: -4px;	/* This is the spacing between each letter of the title text. */
+}
+
+.tagline {			/* This is the tag line - the text underneath the header. */
+	font-size: 16pt;	/* This is how big it is. */
+	font-weight: bold;
+	text-align: center;
+	clear: both;		/* Nothing can be to the left or right side of this element. */
+	margin-top: 6px;
+	margin-bottom: 30px;
+	text-transform: uppercase; /* You can remove this line if you don't want your tagline to be capitalised.*/
+	letter-spacing: 4px;	/* This is the spacing between each letter of the tag line. */
+}
+
+.main-box {
+	border-style: solid;
+	border-width: 5px;
+	padding: 20px 40px;	/* This is buffer space inside the text box. 20 pixels at the top and bottom. 40px at the sides. */
+	margin: -10px auto;
+	width: 860px;
+	background: #FFFFFF;
+	line-height: 150%;	/* The space between lines of text in a paragraph. */
+	-moz-border-radius: 20px; /* These three create the rounded corners. Visible in every browser except Internet Explorer. */
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.links {
+	border: 0px;
+	padding: 5px;
+	padding-left: 54px;		/* Change this number, to push your link bar to the centre of the screen. */
+	width: 956px;
+	height: 49px;
+	margin: 12px auto;
+	clear: both;
+	display: block;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.links a {
+	padding: 8px 13px;		/* Space between the link and its border. 8 pixels at the top and bottom. 13 at the sides. */
+	margin: 4px;			/* Blank space around the link and its border. */
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	text-decoration: none;		/* Removes the underline from the links. */
+}
+
+.links p {
+	float: left;
+	display: block;
+}
+
+img {					/* Applies to any images you put in your page. */
+	border: 1px solid;
+	margin: 5px;
+	float: left;
+	max-width: 230px;
+	margin-right: 25px;			/* This will cause images to move to the left, with text wrapping around their right side. */
+}
+
+.footer {
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.footer a {
+	color: #000;
+}
